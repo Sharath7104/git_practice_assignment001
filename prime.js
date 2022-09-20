@@ -1,14 +1,18 @@
-let number=13, c=0;
-for(let i=1;i<=number;i++)
+
+let num=13, count =0;
+for(let i=1;i<=num;i++)
   {
-    if(number%i==0)
+    if(num%i==0)
+
     {
-      c=c+1;
+      count =count+1;
     }
   }
-if(c == 0)
+if(count == 2)
 {
-  console.log(number,"is a prime no")
+
+  console.log(num,"is a prime no")
+
 }
 else
 {
